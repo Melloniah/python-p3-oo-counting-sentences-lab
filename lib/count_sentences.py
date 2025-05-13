@@ -17,7 +17,7 @@ class MyString:
       else:
         print("The value must be a string.")  # required print
            
-        raise ValueError("The value must be a string.")
+        ValueError("The value must be a string.")
     
     def is_sentence(self):
         return self.value.endswith(".")   
